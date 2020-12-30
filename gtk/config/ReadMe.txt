@@ -29,6 +29,7 @@ gtk
 Obs.: 
 - No shell msys compila e executa o programa. No shell do Windows apenas executa o programa
 - O executável só funciona corretamente quando o arquivo de template está no mesmo diretório. Como corrigir?
+- Em computadores em que a variável de ambiente não está configurada aparece um erro mensagem de erro informada a inexistência de uma dll. Como corrigir? Linkagem estática?
 
 Info:
 - Path Glade and GGC v10.2.0
