@@ -1,35 +1,33 @@
-1 - Instalar o Msys
+1 - Install Msys2
 
-2 - Instalar o GTK
+2 - Install GTK
 
-3 - Instalar o Glade
+3 - Install Glade
 
-4 - Instalar as bibliotecas que permitem a comunicaçaõ entre a linguagem C e o GTK
+4 - Install the libraries that permited a comunication between the language C and the GTK
 
 5 - Configure enviroment variable
-- shell msys
-- arquivo: ~/.bash_profile
+- shell Msys2
+- local of file: ~/.bash_profile
 export PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig:/lib/pkgconfig:/c/msys64/mingw64/lib/pkgconfig
 export PKG_CONFIG_PATH=/usr/lib/pkgconfig:/usr/share/pkgconfig:/lib/pkgconfig:/c/msys64/mingw64/lib/pkgconfig
 
-- windows via GUI
+- windows by GUI
 
-6 - Acess directory by project
+6 - Access the directory of project
 
-7 - Compile using on shell Msys: 
+7 - Process of Compilation in the shell Msys:
 gcc -o gtk gtk.c -Wall `pkg-config --cflags --libs gtk+-3.0` -export-dynamic
 
-
-
-8 - Run using on shell Msys:: 
-./gtk (shell msys)
+8 - Run program in the shell Msys2 
+./gtk (shell Msys2)
 gtk
  (sheel Windows)
 
 Obs.: 
-- No shell msys compila e executa o programa. No shell do Windows apenas executa o programa
-- O executável só funciona corretamente quando o arquivo de template está no mesmo diretório. Como corrigir?
-- Em computadores em que a variável de ambiente não está configurada aparece um erro mensagem de erro informada a inexistência de uma dll. Como corrigir? Linkagem estática?
+- In the shell Msys2 the program is compiled and executed. But in the shell of Windows the program is only executed
+- The file of bytecode is started correctly only when the file of template has on same directory. What do make?
+- In the computers in that a variable of environment not has configured is show a message of error about a file of dll not encountred. What do make?
 
 Info:
 - Path Glade and GGC v10.2.0
