@@ -1,0 +1,6 @@
+- Whats is a linker?
+  - The link is a software of system what is responsable by gerency the proccess of compilation
+- What is a static link?
+- What is a static library?
+- What is a dynamic link?
+- What is a dynamic library?
