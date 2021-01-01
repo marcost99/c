@@ -34,3 +34,4 @@ Info:
 C:\msys64\mingw64\bin
 - Path GGC v9.2.0
 C:\MinGW\bin
+- In the Msys2 the folders /bin and /usr/bin are same
