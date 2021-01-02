@@ -1,0 +1,15 @@
+After execute the command for compilation  (ex.: gcc hello-world.c -o hello-world), the following process are executed:
+
+1 - Preprocessing
+  - The preprocessor (a program of system) read the dependencies and create um file (*.i) with all functions and save in the memmory
+
+2 - Compilation
+  - The compiler (ex.: GNU GCC) transform the file *.i in a file (*.s) with code in assembler
+
+3 - Assembler
+  - The Assembler transform the file *.s in a file of object (*.o). This file contain intructions of language of machine
+
+4 - Linking
+  - The Linker (a program separate. ex.: GNU LD) merge all file of object (each function has a file of object specific) and generate the file executable
+
+Reference: https://cs-fundamentals.com/c-programming/how-to-compile-c-program-using-gcc.php#Linking
