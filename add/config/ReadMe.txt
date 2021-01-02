@@ -1,6 +1,29 @@
 - Whats is a linker?
   - The link is a software of system what is responsable by gerency the proccess of compilation
 - What is a static link?
+  - It is a process in wath a linker copied the libraries for executable of program
 - What is a static library?
+  - It is a library what is utilited only in the proccess of static link for build of one program specific
 - What is a dynamic link?
+  - It is a process in wath one or more libraries not copied for executable of program. The libraries are referenciadas by executable of program
 - What is a dynamic library?
+  - It is a library wath stay in the folder default of system and can be utilited by various programs
+- Reference: https://medium.com/@adib.grouz/static-and-dynamic-library-in-c-using-gcc-on-linux-354edc5d88d3
+
+- static link
+	- file of executable (*.exe)
+		- file of object of function main (*.o)
+			- function main (*.c)
+				- utility file in that are declared the funcions utilited (*.h) - by default stay in /usr/local/include
+		- file of library static (*.a)
+			- files of object in that are implemented the funcions utilited (*.o)
+				- functions (*.c)
+
+- dynamic link
+	- file of executable (*.exe)
+		- file of object of function main (*.o)
+			- function main (*.c)
+				- utility file in that are declared the funcions utilited (*.h) - by default stay in /usr/local/include
+	- file of library dynamic (*.so) - by default stay in /usr/lib
+			- files of object in thar are implemented the funcions utilited (*.o)
+				- functions (*.c)
