@@ -1,1 +1,1 @@
-Copy this files for folder default of libraries of system
+Copy this files for folder default of headers of system (/usr/local/include in the linux)
